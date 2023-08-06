@@ -58,7 +58,25 @@
         <h1>Contacts</h1><br><p>This is section 5</p>
     </section>
 
+    <script>
+        function smoothScroll(event) {
+            event.preventDefault();
+            const targetID = event.target.getAttribute('href');
+            const targetSelection = document.querySelectorAll(targetID);
+            targetSelection.scrollIntoView({behavior : 'smooth'});
+        }
+        
+        navLinks.arrary.forEach(link => {
+            link.addEventListener('click'. smoothScroll);
 
+        });
+
+        window.addEventListener('scroll', () => {
+            setActiveLink
+
+        })
+
+    </script>
 
 
     <footer>
