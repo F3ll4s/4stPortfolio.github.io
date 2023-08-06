@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  .title{
+  title{
       text-align: left;
   }
   
@@ -23,11 +23,11 @@ body {
     justify-content: space-between; /* To push the title and button to the opposite sides */
   }
   
-  .navbar-left h1 {
+  navbar-left h1 {
     margin: 0;
   }
   
-  .navbar-right a {
+  navbar-right a {
     text-decoration: none;
     /* background-color: #ff8809; Background color of the button */
     color: #fff; /* Text color for the button */
