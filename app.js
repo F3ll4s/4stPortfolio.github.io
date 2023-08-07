@@ -9,7 +9,7 @@ function typewritter(element, text, index,speed) {
 }
 
 const SIRAPOP = "SIRAPOP_";
-typeWriter(SIR, SIRAPOP, 0, 50);
+typewritter(sir, SIRAPOP, 0, 50);
 
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('nav a');
