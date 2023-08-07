@@ -27,3 +27,7 @@ navLinks.arrary.forEach(link => {
     link.addEventListener('click'. smoothScroll);
 
 });
+window.addEventListener('scroll', () => {
+    setActiveLink();
+    stickyNav();
+  });

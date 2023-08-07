@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="stlyes.css">
-
-    
 </head>
 <body>
     
@@ -16,7 +14,7 @@
 
     <nav>
         <div class="nav-left">
-        <h1>Sirapop</h1>
+            <h1>Sirapop</h1>
         </div>
         <div class="nav-right">
             <a href="#home">HOME</a>
@@ -58,25 +56,7 @@
         <h1>Contacts</h1><br><p>This is section 5</p>
     </section>
 
-    <script>
-        function smoothScroll(event) {
-            event.preventDefault();
-            const targetID = event.target.getAttribute('href');
-            const targetSelection = document.querySelectorAll(targetID);
-            targetSelection.scrollIntoView({behavior : 'smooth'});
-        }
-        
-        navLinks.arrary.forEach(link => {
-            link.addEventListener('click'. smoothScroll);
-
-        });
-
-        window.addEventListener('scroll', () => {
-            setActiveLink
-
-        })
-
-    </script>
+    <script src="app.js"></script>
 
 
     <footer>
