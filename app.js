@@ -8,7 +8,7 @@ function typewritter(element, text, index,speed) {
     }
 }
 
-const SIRAPOP = "SIRAPOP_";
+const SIRAPOP = "Sirapop_";
 typewritter(sir, SIRAPOP, 0, 50);
 
 const sections = document.querySelectorAll('section');
