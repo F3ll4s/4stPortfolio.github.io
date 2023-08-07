@@ -8,8 +8,8 @@ function typewritter(element, text, index,speed) {
     }
 }
 
-const SIRAPOP = "SIRAPOP_";
-typeWriter(sir, SIRAPOP, 0, 50);
+const SIR = "SIRAPOP_";
+typeWritter(SIR, SIRAPOP, 0, 50);
 
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('nav a');
@@ -37,7 +37,7 @@ function setActiveLink() {
       nav.classList.remove('sticky');
     }
   }
-  
+
 function smoothScroll(event) {
     event.preventDefault();
     const targetID = event.target.getAttribute('href');
