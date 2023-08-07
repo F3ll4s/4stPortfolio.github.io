@@ -12,7 +12,7 @@ function typeWriter(element, text, index, speed) {
 
 // Typing effect on rackroll_ text
 const SIRAPOP = "Sirapop_";
-typeWriter(sir, Sirapop, 0, 50);
+typeWriter(sir, SIRAPOP, 0, 50);
 
 const sections = document.querySelectorAll('section');
 const navLink = document.querySelectorAll('nav a');
