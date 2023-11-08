@@ -1,10 +1,10 @@
 const sir = document.getElementById("sir");
 
-function typewritter(element, text, index,speed) {
+function typewritter(element,text,index,speed) {
     if (index < text.length) {
         element.innerHTML += text.charAt(index);
         index++;
-        setTimeout(() => typewritter(element, text,index, speed), speed);
+        setTimeout(() => typewritter(element,text,index,speed),speed);
     }
 }
 
