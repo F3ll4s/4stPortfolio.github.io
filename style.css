@@ -8,7 +8,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-title{
+.title{
     text-align: left;
 }
 
@@ -23,14 +23,14 @@ nav {
   justify-content: space-between; /* To push the title and button to the opposite sides */
 }
 
-navbar-left h1 {
+.navbar-left h1 {
   margin: 0;
 }
 
-navbar-right a {
+.navbar-right a {
   text-decoration: none;
   /* background-color: #ff8809; Background color of the button */
-  color: #fff; /* Text color for the button */
+  color: rgb(168, 7, 7); /* Text color for the button */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -94,7 +94,7 @@ img {
   margin-right: 20px;
 }
 
-navbar-right a:hover{
+.navbar-right a:hover{
   background-color: #9e2626; /* Background color of the button */
   color: #fff; /* Text color for the button */
   border: none;
