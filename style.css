@@ -29,8 +29,9 @@ nav {
 
 .navbar-right a {
   text-decoration: none;
+  background-color:rgb(22, 137, 214);
   /* background-color: #ff8809; Background color of the button */
-  color: rgb(168, 7, 7); /* Text color for the button */
+  color: rgb(214, 22, 22); /* Text color for the button */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
