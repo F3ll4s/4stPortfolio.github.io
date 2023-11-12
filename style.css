@@ -13,14 +13,14 @@ body {
 }
 
 nav {
-  background-color: #333; /* Background color of the navigation bar */
+  background-color: #333;
   padding: 20px;
   width: 100%;
   display: flex;
   align-items: center;
-  color: #fff; /* Text color for the title and button */
-  position: fixed; /* This will fix position of nav bar */
-  justify-content: space-between; /* To push the title and button to the opposite sides */
+  color: #fff; 
+  position: fixed; 
+  justify-content: space-between; 
 }
 
 .navbar-left h1 {
@@ -38,7 +38,6 @@ nav {
   transition: .5s ease;
 }
 
-/* ###Content### */
 
 section {
   height: 1000px;
@@ -48,9 +47,9 @@ section {
   font-size: 24px;
 }
 
-/* Add the background image to the desired section */
+
 #home {
-  color: #000000; /* Set text color for better visibility */
+  color: #000000; 
   height: 800px;
   display: flex;
   justify-content: center;
@@ -61,7 +60,7 @@ section {
 #home a{
   text-decoration: none;
   background-color: #fff;
-  color: #000; /* Text color for the button */
+  color: #000; 
   border: none;
   padding: 80px 120px;
   border-radius: 30PX;
@@ -95,8 +94,8 @@ img {
 }
 
 .navbar-right a:hover{
-  background-color: #9e2626; /* Background color of the button */
-  color: #fff; /* Text color for the button */
+  background-color: #9e2626; 
+  color: #fff; 
   border: none;
   transform: scale(1.2);
   border-radius: 5px;
